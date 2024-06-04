@@ -47,6 +47,8 @@ https://daisyui.com/components/
 ----------------------------------
 https://daisyui.com/docs/install/
 
+>>file .eslintrc.cjs >>  env: { browser: true, es2020: true ,node : true },
+
 # for react icons 
 -----------------
 npm install react-icons --save
@@ -98,7 +100,70 @@ https://recharts.org/en-US/examples
 ---------------------
 https://reactrouter.com/en/main/start/tutorial
 
+npm install react-router-dom 
+npm install localforage match-sorter sort-by 
+npm run dev
+
+# react router set 
+
+```js 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  //   {
+          //     path: "/donations",
+          //     element: <Donations></Donations>,
+          //     loader: () => fetch("/donation.json"),
+          //   },
+          //   {
+          //     path: '/update/:id',
+          //     element: <Update></Update>,
+          //     loader: ({params}) => fetch('http://localhost:5000/users/$ {params.id}')
+          //   },
+]); 
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <RouterProvider router={router}/>
+  </React.StrictMode>,
+)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+```
 # load dummy data from json placeholder
 --------------------------------------------
 https://jsonplaceholder.typicode.com/
 
+# CSS >> button alignment thorugh verticallyh with each column 
+# and create spance between childDiv and button 
+'
+    <div id=parentDiv className="flex flex-col">
+        <div id=childDiv classNAme="flex-grow"> 
+            <p> i am in child div which you want 
+                vertically align or need space  with all other cols . 
+            </p> 
+        </div>
+        <button> try me </button>
+
+     </div>
+'
+
+# react toastify // messeage showed
+https://fkhadra.github.io/react-toastify/installation/
+npm install --save react-toastify
+
+
+
+# build project command netlify
+npm install -g serve
+npm run build
+
+# netlify when page on found for refreshing
+ >> 1. in dist floder >> create file named '_redirects'
+ >> 2. write this code in that file 
+ /*  /index.html  200
