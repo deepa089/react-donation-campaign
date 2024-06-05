@@ -1,9 +1,14 @@
-import React from 'react';
-
+import { Outlet } from "react-router-dom";
+import Header from "../Header/Header";
+import '../Header/Header.css'
 const Root = () => {
+   
     return (
         <div>
-            <h2>Root</h2>
+            <div className='homeBackgroungImg'>
+                <Header></Header>
+            </div>
+            <Outlet></Outlet>
         </div>
     );
 };
