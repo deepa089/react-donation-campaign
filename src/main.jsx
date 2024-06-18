@@ -8,6 +8,7 @@ import {
 import Root from './components/Root/Root.jsx';
 import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 import Home from './components/Home/Home.jsx';
+import DonationDetails from './components/DonationDetails/DonationDetails.jsx';
 
 
 const router = createBrowserRouter([
@@ -20,6 +21,11 @@ const router = createBrowserRouter([
         path : "/",
         element: <Home></Home>
       },
+      {
+        path : '/donation/:id',
+        element : <DonationDetails></DonationDetails>,
+        loader: () => fetch('./../public/categoryList.json')
+      }
 
        //   {
           //     path: "/donations",
@@ -38,5 +44,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    {/* <App></App> */}
   </React.StrictMode>,
 )

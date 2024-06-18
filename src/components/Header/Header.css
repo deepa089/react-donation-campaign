@@ -16,9 +16,9 @@ nav li {
 
 /* .homeBackgroungImg { */
 #homeDiv{
-    background-image: url('../../assets/images/donationBackImage.png');
+    /* background-image: url('../../assets/images/donationBackImage.png'); */
     height: 500px;
-    width: 500px;
+    width: 100%;
     background-color: antiquewhite;
     /* opacity: 0.2; */
 }

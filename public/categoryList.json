@@ -1,0 +1,137 @@
+[
+    {
+        "id" : 1,
+        "img": "https://i.ibb.co/YhMFzTB/national-cancer-institute-701-FJcj-LAQ-unsplash.jpg",
+        "category": "Health",
+        "category_bg": "#AEC7FF",
+        "card_bg": "#D9E5FF",
+        "text_btn_bg": "#0052FF",
+        "title" : "Provide medical supplies",
+        "description": "Donating medical supplies is crucial for supporting healthcare systems, particularly in underserved areas and during crises. This involves assessing needs, sourcing quality items, and managing logistics to ensure timely and intact delivery. Collaborating with non-profits and local authorities helps match supplies to specific needs, while providing training ensures proper usage. Beyond immediate relief, sustainable donations focus on long-term improvements by establishing ongoing supply chains and building local capacity. Such efforts not only address urgent medical needs but also strengthen healthcare resilience and self-sufficiency in the long run.",
+        "price": 75
+      },
+    {
+      "id" : 2,
+      "img": "https://i.ibb.co/qJssQCc/istockphoto-1250370410-2048x2048.jpg",
+      "category": "Education",
+      "category_bg": "#FFC4C5",
+      "card_bg": "#FFE3E4",
+      "text_btn_bg": "#FF585D",
+      "title" : "Support children's education",
+      "description": "Supporting children's education through donations is a powerful way to foster long-term positive change. Donations can provide essential resources such as books, school supplies, uniforms, and technology, which are critical for effective learning. Additionally, contributions can fund scholarships, build schools, and support teacher training programs, ensuring that children receive quality education. By investing in education, donors help break the cycle of poverty, empower young minds, and pave the way for a brighter future. Every donation, no matter the size, plays a crucial role in creating opportunities and unlocking the potential of children around the world.",
+      "price": 50
+    },
+    {
+      "id" : 3,
+        "img": "https://i.ibb.co/Ycw2f2V/burgess-milner-OYYE4g-I5-ZQ-unsplash.jpg",
+        "category": "Clothing",
+        "category_bg": "#D4ECC2",
+        "card_bg": "#EBF6E2",
+        "text_btn_bg": "#79C23F",
+        "title" : "Help plant trees",
+        "description": "Donating to help plant trees and conserve natural habitats is a powerful way to combat climate change and protect biodiversity. Contributions support reforestation projects, restoring degraded lands and creating wildlife corridors that enhance ecosystems. These efforts sequester carbon dioxide, improving air quality and mitigating global warming. Additionally, conserving natural habitats preserves vital ecosystems, protecting endangered species and maintaining biodiversity. Donations also fund community education and sustainable practices, ensuring long-term stewardship of the environment. By supporting these initiatives, donors play a crucial role in fostering a healthier planet for future generations.",
+        "price": 25
+      },
+      {
+        "id" : 4,
+        "img": "https://i.ibb.co/4PnYDYN/istockphoto-1305975753-612x612.jpg",
+        "category": "Food",
+        "category_bg": "#FDD2C4",
+        "card_bg": "#FEEAE4",
+        "text_btn_bg": "#F87147",
+        "title" : "Better For Everyone",
+        "description": "Donating nutritious food is essential to combating hunger and promoting health in communities worldwide. Better food donations should focus on providing fresh fruits, vegetables, whole grains, and protein-rich items, rather than processed and high-sugar foods. This not only addresses immediate hunger but also supports long-term health and well-being. Collaborating with local farmers, food banks, and non-profits ensures that donations are fresh, culturally appropriate, and reach those in need. By prioritizing quality and nutrition, food donations can help reduce malnutrition, improve overall health, and empower communities to thrive.",
+        "price": 60
+      },
+    {
+      "id" : 5,
+      "img": "https://i.ibb.co/WWjHK0P/santi-vedri-O5-EMzfdxedg-unsplash.jpg",
+      "category": "Education",
+      "category_bg": "#FFC4C5",
+      "card_bg": "#FFE3E4",
+      "text_btn_bg": "#FF585D",
+      "title" : "Scholarships",
+      "description": "Donating scholarships for talented students is a transformative act that opens doors to education and future opportunities. These scholarships empower bright minds from diverse backgrounds to pursue their academic dreams, regardless of financial constraints. By covering tuition fees, books, and other educational expenses, scholarships alleviate the financial burden on students and their families. This support not only nurtures individual potential but also contributes to the creation of a more educated, innovative, and equitable society. Donors investing in scholarships help cultivate the next generation of leaders, professionals, and change-makers, fostering a brighter future for all.",
+      "price": 100
+    },
+    
+    {
+      "id" : 6,
+      "img": "https://i.ibb.co/kmrx5SH/owen-beard-DK8j-Xx1-B-1c-unsplash.jpg",
+      "category": "Health",
+      "category_bg": "#AEC7FF",
+      "card_bg": "#D9E5FF",
+      "text_btn_bg": "#0052FF",
+      "title" : "Fund essential surgeries",
+      "description": "Donating funds for essential surgeries can profoundly impact the lives of those in need, particularly in underserved communities. Many individuals face debilitating conditions that are treatable but unaffordable, such as cataracts, congenital heart defects, and traumatic injuries. Contributions to surgical funds help cover the costs of these life-changing procedures, including pre- and post-operative care. This support not only alleviates suffering but also restores functionality, allowing recipients to lead healthier, more productive lives. By funding essential surgeries, donors can make a tangible difference, offering hope and improved quality of life to those who might otherwise remain untreated..",
+      "price": 150
+    },
+    
+    {
+      "id" : 7,
+      "img": "https://i.ibb.co/Js9xT0m/marcus-loke-x-XJ6utyo-Sw0-unsplash.jpg",
+      "category": "Clothing",
+      "category_bg": "#D4ECC2",
+      "card_bg": "#EBF6E2",
+      "text_btn_bg": "#79C23F",
+      "title" : "Support ocean cleanup",
+      "description": "Supporting ocean cleanup initiatives through donations is crucial for preserving marine ecosystems and combating pollution. These initiatives focus on removing plastic waste, protecting marine life, and restoring ocean health. Donations help fund the development and deployment of advanced cleanup technologies, support beach cleanups, and promote awareness campaigns. Financial contributions also enable research into sustainable waste management practices and the creation of marine sanctuaries. By supporting these efforts, donors play a vital role in reducing the devastating impact of plastic pollution, ensuring healthier oceans, and safeguarding the planet for future generations. Every donation makes a significant difference in the fight against ocean pollution.",
+      "price": 100
+    },
+    
+    {
+      "id" : 8,
+      "img": "https://i.ibb.co/Zz2qp1r/maria-lin-kim-8-Ra-UEd8z-D-U-unsplash.jpg",
+      "category": "Food",
+      "category_bg": "#FDD2C4",
+      "card_bg": "#FEEAE4",
+      "text_btn_bg": "#F87147",
+      "title" : "Provide shelter and food",
+      "description": "Providing shelter and food for donation is crucial in addressing the immediate needs of vulnerable populations, particularly during crises like natural disasters, conflicts, or economic downturns. Donations of temporary housing materials, such as tents and tarps, along with non-perishable food items, can offer immediate relief to those displaced from their homes. Collaborating with local organizations ensures that these resources are distributed efficiently and reach those most in need. Sustained efforts and community support are essential for creating safe living environments and addressing long-term needs, ultimately fostering recovery and stability for affected individuals and families.",
+      "price": 90
+    },
+    {
+      "id" : 9,
+      "img": "https://i.ibb.co/xHgJLpn/cdc-gs-Ri9c-WCIB0-unsplash.jpg",
+      "category": "Education",
+      "category_bg": "#FFC4C5",
+      "card_bg": "#FFE3E4",
+      "text_btn_bg": "#FF585D",
+      "title" : "Build libraries",
+      "description": "Building libraries in remote areas is a transformative act that promotes education, literacy, and community development. These libraries provide access to books, resources, and educational materials that are otherwise scarce in isolated regions. Donations of books, computers, and furniture can create vibrant spaces where people of all ages can learn, connect, and expand their knowledge. Such initiatives not only enhance educational opportunities but also foster a sense of community pride and empowerment, contributing to the overall well-being and resilience of remote populations",
+      "price": 200
+    },
+    {
+      "id" : 10,
+      "img": "https://i.ibb.co/yP1wtnf/online-marketing-h-Igeo-Qj-S-i-E-unsplash.jpg",
+      "category": "Health",
+      "category_bg": "#AEC7FF",
+      "card_bg": "#D9E5FF",
+      "text_btn_bg": "#0052FF",
+      "title" : "Provide mental health",
+      "description": "Donating mental health support and counseling services is a compassionate initiative that addresses critical needs in communities facing psychological distress, trauma, or crises. By providing access to trained counselors, therapists, and mental health professionals, donations can help individuals cope with and recover from various mental health challenges. This support is especially crucial during times of adversity, such as natural disasters or conflict situations, where psychological well-being often becomes a neglected aspect of humanitarian aid. Such donations not only offer immediate relief but also contribute to building resilience and fostering long-term mental health outcomes within vulnerable populations.",
+      "price": 120
+    },
+    {
+      "id" : 11,
+      "img": "https://i.ibb.co/dKn98Vv/parker-burchfield-tv-G4-Wvjgs-EY-unsplash.jpg",
+      "category": "Clothing",
+      "category_bg": "#D4ECC2",
+      "card_bg": "#EBF6E2",
+      "text_btn_bg": "#79C23F",
+      "title" : "Protect endangered species",
+      "description": "Protecting endangered species and their habitats is crucial for biodiversity conservation. Donations directed towards this cause support efforts such as habitat restoration, anti-poaching measures, and species monitoring programs. These funds enable organizations to implement conservation strategies that safeguard ecosystems, mitigate human-wildlife conflict, and promote sustainable practices. By preserving habitats and ensuring the survival of endangered species, donors contribute to maintaining ecological balance and securing a sustainable future for our planet's diverse flora and fauna.",
+      "price": 80
+    },
+    {
+      "id" : 12,
+      "img": "https://i.ibb.co/MB2ZfNJ/alex-lvrs-On2-Vse-HUDXw-unsplash.jpg",
+      "category": "Food",
+      "category_bg": "#FDD2C4",
+      "card_bg": "#FEEAE4",
+      "text_btn_bg": "#F87147",
+      "title" : "Fund veterinary care",
+      "description": "Funding veterinary care for injured wildlife is crucial for their rehabilitation and eventual release back into their natural habitats. Donations support the costs of medical treatments, surgeries, and specialized care provided by wildlife veterinarians and rehabilitators. These efforts are essential for ensuring that animals receive the necessary treatment to recover from injuries caused by accidents, environmental hazards, or human activities. By contributing to veterinary care funds, donors play a direct role in preserving biodiversity and promoting the welfare of wild animals, thereby supporting conservation efforts and fostering a healthier ecosystem for future generations.",
+      "price": 70
+    }
+  ]
