@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 
 const DonationDetails = () => {
@@ -15,9 +15,9 @@ const DonationDetails = () => {
 
     return (
         <div className='px-36 pb-32'>
-            <img className='w-full' src={donationInfo.img}></img>
+            {/* <img className='w-full' src={donationInfo.img}></img>
             <h2 className='text-3xl font-semibold py-4'>{donationInfo.title}</h2>
-            <p className='text-sm'>{donationInfo.description}</p>
+            <p className='text-sm'>{donationInfo.description}</p> */}
 
         </div>
     );
