@@ -5,7 +5,7 @@ const Category = ({ categoryInfo }) => {
     // console.log(card_bg);
     return (
         <div>
-            <Link to={`/donation/${id}`} className="card bg-base-100 shadow-xl rounded">
+            <Link to={`/donationDetail/${id}`} className="card bg-base-100 shadow-xl rounded">
                 <figure className="h-48"><img src={img} alt="Shoes" /></figure>
                 <div style={{backgroundColor: `${card_bg}`}} className="card-body p-4">
                     <h2 className="card-title text-sm">
