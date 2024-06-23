@@ -9,6 +9,9 @@ export default {
       backgroundImage: {
         'home-banner': "url('./src/assets/images/donationBackImage.png')",
         // 'footer-texture': "url('/img/footer-texture.png')",
+      },
+      opacity: {
+        '999999': '999999',
       }
     },
   },

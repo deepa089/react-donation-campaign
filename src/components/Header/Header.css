@@ -16,8 +16,10 @@ nav li {
 
 /* .homeBackgroungImg { */
 #homeDiv{
-    /* background-image: url('../../assets/images/donationBackImage.png'); */
-    height: 500px;
+    background-image: url('../../assets/images/donationBackImage.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
     width: 100%;
     background-color: antiquewhite;
     /* opacity: 0.2; */

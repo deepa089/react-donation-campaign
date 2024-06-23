@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Header.css';
 import logo from '../../assets/images/Logo.png'
 const Header = () => {
@@ -22,7 +22,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <a className="">
-                        <img src={logo}></img>
+                       <Link to={`/`}> <img  src={logo}></img> </Link>
                     </a>
                 </div>
                 <div className="navbar-center hidden lg:flex">

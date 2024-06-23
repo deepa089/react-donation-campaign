@@ -1,4 +1,4 @@
-// import headerBackImg from '../Header/Header.css'
+// import '../Header/Header.css'
 // import homeImage from '../../assets/images/donationBackImage.png'
 
 import CategoryList from "../CategoryList/CategoryList";
@@ -6,7 +6,7 @@ import CategoryList from "../CategoryList/CategoryList";
 const Home = () => {
     return (
         <div>
-            <div id='homeDiv'>
+            <div id='homeDiv' className="bg-cover bg-opacity-0">
                 {/* <img className='w-full h-1/6' src={homeImage}></img> */}
                 <h2>Home</h2>
 
