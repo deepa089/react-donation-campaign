@@ -42,17 +42,10 @@ const DonationDetails = () => {
         <div className='px-36 pb-32'>
             <div style={{backgroundImage: `url(${donationInfo.img})`, backgroundPosition: 'top', backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat'}} className="w-full h-screen relative rounded-lg">
-                <div className="w-full py-9 bg-black opacity-50 text-white text-2xl pl-8  absolute bottom-0 left-0">
+                <div  className="w-full py-9 bg-[#0b0b0b80] text-white text-2xl pl-8  absolute bottom-0 left-0">
                     <button style={{backgroundColor: `${donationInfo.text_btn_bg}`}} className='text-white py-4 px-6 rounded font-semibold opacity-[999999]' onClick={() => handleSaveDonation(`${donationInfo.id}`)}>Donate ${donationInfo.price}</button>
                 </div>
             </div>
-
-            {/* <div style={{ backgroundImage: `url(${donationInfo.img})`, backgroundPosition: 'top', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="w-full h-screen rounded-lg parent">
-                <div className="child w-full h-1/6 flex">
-                     <button style={{backgroundColor: `${donationInfo.text_btn_bg}`}} className="text-white md:text-xl font-semibold px-3 py-2 md:px-6 md:py-4 rounded my-auto ml-9">Donate ${donationInfo.price}</button>
-                 </div>
-             </div> */}
-
             <h2 className='text-3xl font-semibold py-6'>{donationInfo.title}</h2>
             <p className='text-base text-[#0b0b0bb3] text-justify'>{donationInfo.description}</p>
             <ToastContainer />

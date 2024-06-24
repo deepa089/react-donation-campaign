@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'home-banner': "url('./src/assets/images/donationBackImage.png')",
+        // 'home-banner': "url('./src/assets/images/donationBackImage.png')",
         // 'footer-texture': "url('/img/footer-texture.png')",
       },
       opacity: {
