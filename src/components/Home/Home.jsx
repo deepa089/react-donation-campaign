@@ -9,6 +9,7 @@ import { data } from "autoprefixer";
 const Home = () => {
     const [categoryList, setCategoryList] = useState([]);
     const [displayList, setDisplayList] = useState([]);
+    const [isDisplay, setIsDisplay] = useState(false);
 
     // setDisplayList(categoryList);
     const searchCat = useRef();
@@ -16,21 +17,30 @@ const Home = () => {
         e.preventDefault();
         console.log(searchCat.current.value);
         const searchValue = searchCat.current.value;
-        if (searchValue == "Health") {
+        if (searchValue == "") {
+            // const data = categoryList.filter(cat => cat.category == searchValue);
+            setDisplayList(categoryList);
+            setIsDisplay(true);
+        }else if (searchValue == "Health") {
             const data = categoryList.filter(cat => cat.category == searchValue);
             setDisplayList(data);
+            setIsDisplay(true);
         } else if (searchValue == "Education") {
             const data = categoryList.filter(cat => cat.category == searchValue);
             setDisplayList(data);
+            setIsDisplay(true);
         } else if (searchValue == "Clothing") {
             const data = categoryList.filter(cat => cat.category == searchValue);
             setDisplayList(data);
+            setIsDisplay(true);
         } else if (searchValue == "Food") {
             const data = categoryList.filter(cat => cat.category == searchValue);
             setDisplayList(data);
+            setIsDisplay(true);
         } else {
             const data = categoryList.filter(cat => cat.category == searchValue);
             setDisplayList(data);
+            setIsDisplay(true);
         }
     }
 
@@ -57,10 +67,15 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="pt-24 px-36">
-                <div className='grid grid-cols-4 gap-6'>
-                    {
+            <div className="py-24 px-28">
+                {/* <div className='grid grid-cols-4 gap-6'> */}
+                <div className='flex flex-wrap gap-6'>
+                    {/* {
                         displayList.length == 0 ? categoryList.map((category, idx) => <Category key={idx} categoryInfo={category}></Category>) :
+                        displayList.map((category, idx) => <Category key={idx} categoryInfo={category}></Category>) 
+                    } */}
+                    {
+                        isDisplay == false ? categoryList.map((category, idx) => <Category key={idx} categoryInfo={category}></Category>) :
                         displayList.map((category, idx) => <Category key={idx} categoryInfo={category}></Category>) 
                     }
                 </div>
