@@ -141,6 +141,7 @@ https://jsonplaceholder.typicode.com/
 
 # CSS >> button alignment thorugh verticallyh with each column 
 # and create spance between childDiv and button 
+https://web.programming-hero.com/web-8/video/web-8-44-5-responsive-pricing-card-with-tailwind-and-hero-icons
 '
     <div id=parentDiv className="flex flex-col">
         <div id=childDiv classNAme="flex-grow"> 
