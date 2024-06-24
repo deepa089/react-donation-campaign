@@ -3,7 +3,7 @@ import './Header.css';
 import logo from '../../assets/images/Logo.png'
 const Header = () => {
 
-    const linkList = 
+    const linkList =
         <>
             <li><NavLink to="/" >Home</NavLink> </li>
             <li><NavLink to="/donation" >Donation</NavLink> </li>
@@ -21,9 +21,7 @@ const Header = () => {
                             {linkList}
                         </ul>
                     </div>
-                    <a className="">
-                       <Link to={`/`}> <img  src={logo}></img> </Link>
-                    </a>
+                    <Link to={`/`}> <img src={logo}></img> </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                 </div>
