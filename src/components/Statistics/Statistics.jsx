@@ -27,7 +27,6 @@ const Statistics = () => {
     const dataMap = [];
     dataMap.push({ name: 'Your Donation', value: donationSum })
     dataMap.push({ name: 'Total Donation', value: totalDonation })
-    console.log(dataMap);
     setDataMap1(dataMap);
   }, [])
   const COLORS = ['#00C49F','#FF444A'];

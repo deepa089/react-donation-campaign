@@ -15,7 +15,6 @@ const Home = () => {
     const searchCat = useRef();
     const handleSearchCategory = (e) => {
         e.preventDefault();
-        console.log(searchCat.current.value);
         const searchValue = searchCat.current.value;
         if (searchValue == "") {
             // const data = categoryList.filter(cat => cat.category == searchValue);

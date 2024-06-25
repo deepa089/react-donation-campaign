@@ -7,11 +7,7 @@ const CategoryList = ({categoryList}) => {
     
     return (
         <div className=''>
-            {/* <div className='grid grid-cols-4 gap-6'>
-                    {
-                       Object.values(categoryList).map((category, idx) => <Category key={idx} categoryInfo={category}></Category>)
-                    }
-                </div> */}
+            
         </div>
     );
 };
