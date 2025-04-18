@@ -44,7 +44,7 @@ const Home = () => {
     }
 
     useEffect(() => {
-        fetch('../../../public/categoryList.json')
+        fetch('/categoryList.json')
             .then(res => res.json())
             .then(data => setCategoryList(data))
     }, []);
