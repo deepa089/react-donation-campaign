@@ -66,9 +66,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="py-24 px-28">
+            <div className="py-24 px-20">
                 {/* <div className='grid grid-cols-4 gap-6'> */}
-                <div className='flex flex-wrap gap-6'>
+                <div className='flex flex-wrap gap-6 items-centers justify-center'>
                     {/* {
                         displayList.length == 0 ? categoryList.map((category, idx) => <Category key={idx} categoryInfo={category}></Category>) :
                         displayList.map((category, idx) => <Category key={idx} categoryInfo={category}></Category>) 
